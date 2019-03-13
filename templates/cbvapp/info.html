@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> books available in ur cart </h1>
+{% for book in books %}
+    <h1> <a href = "\{{book.id}}" >{{book.title}}</a> </h1>
+{% endfor %}
+
+
+
+</body>
+</html>
